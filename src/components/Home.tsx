@@ -137,26 +137,31 @@ export function Home() {
                 My Journey
               </h3>
               <div className="space-y-4 text-gray-300">
-                <p>
-                  [Write about when you started editing, what inspired you, and
-                  your growth journey]
+                <p className="space-y-4 leading-relaxed">
+                  <span className="block mb-4">
+                    Editing started as just something fun to mess around with,
+                    but it quickly became so much more. I've gotten so many nice
+                    comments and followers, and that's something I'll always
+                    appreciate.
+                  </span>
+                  <span className="block mb-4">
+                    I actually started editing back in like 2017 on Kinemaster
+                    💀. Then I got into CapCut and Video Star (they've actually
+                    followed me on a few accounts, which is pretty cool).
+                    Eventually, I started using After Effects in 2022, I think?
+                  </span>
+                  <span className="block mb-4">
+                    I remember hitting 10k followers when I was still figuring
+                    out AE, and honestly, I was so bad back then 🥲. But I kept
+                    practicing and improving, and now I'm only 500 followers
+                    away from 50k—like, what?!
+                  </span>
+                  <span className="block">
+                    Seriously, I can't thank you guys enough for all the love
+                    and support. You mean the world to me, and I love y'all so
+                    much ❤️
+                  </span>
                 </p>
-                <div className="pt-4">
-                  <h4 className="text-lg font-semibold text-white mb-2">
-                    Key Milestones:
-                  </h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
-                      [Add your first milestone]
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
-                      [Add another milestone]
-                    </li>
-                    {/* Add more milestones */}
-                  </ul>
-                </div>
               </div>
             </motion.div>
             <motion.div
@@ -297,11 +302,17 @@ export function Home() {
             className="mt-12 bg-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50"
           >
             <h3 className="text-2xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-              Editing Philosophy
+              My Editing Process
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              [Write about your editing style, what makes your work unique, and
-              your creative approach]
+              I’ll spend hours just searching for the perfect audio. I’m super
+              picky about it because the right track can totally change the
+              vibe. Once I find something that feels right, everything else
+              starts coming together. From there, it’s a lot of experimenting
+              playing with timing, pacing, and effects until it starts to click.
+              I don’t rush through it; I like to let things flow and see where
+              they go. By the time I’m happy with it, I’ve probably spent way
+              too much time tweaking little things until it feels perfect.
             </p>
           </motion.div>
         </div>
